@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="startButton">Начать</button>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2>Введите данные</h2>
+        <div class="form">
+          <input type="text" placeholder="Имя">
+          <input type="text" placeholder="Фамилия">
+          <input type="email" placeholder="Email">
+          <input type="number" placeholder="Возраст">
+          <textarea placeholder="Комментарий"></textarea>
+          <button id="submitButton">Отправить</button>
+        </div>
+      </div>
+    </div>
+    <div id="output" class="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
